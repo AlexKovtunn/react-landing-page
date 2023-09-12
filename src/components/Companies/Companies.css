@@ -1,0 +1,12 @@
+.comp-container{
+    justify-content: space-between;
+    gap: 1rem;
+}
+.comp-container>img{
+    width: 9rem;
+}
+@media(max-width:670px){
+    .comp-container{
+        justify-content: center !important;
+    }
+}
